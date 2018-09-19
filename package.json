@@ -10,7 +10,7 @@
     "build": "node build/build.js",
     "heroku-postbuild": "npm run build",
     "lint": "eslint --ext .js,.vue src",
-	"deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "capitalize": "^1.0.0",
